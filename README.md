@@ -1,1 +1,1 @@
-# ExampleLayout-Loco
+example semantic layout without js
