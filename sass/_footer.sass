@@ -1,0 +1,73 @@
+.footer 
+	position: relative
+	padding-top: 45px
+	padding-bottom: 20px
+	color: #ffffff
+	font-family: "Proxima Nova"
+	background: url(../img/footer/footer-bg.png) center no-repeat 
+	&::after
+	 content: ''
+	 display: block
+	 width: 100%
+	 height: 1px
+	 background: #7a79d1
+	 position: absolute
+	 left: 0
+	 bottom: 65px
+	&-logo 
+		padding-bottom: 53px
+	&-rights 
+		padding-top: 21px
+		text-align: center
+		display: flex
+		justify-content: center
+		align-items: center
+		opacity: 0.5
+		color: #ffffff
+		font-family: "Open Sans"
+		font-size: 13px
+	&-title 
+		font: 
+			size: 16px		
+			weight: 400
+		line-height: 22px
+		padding-bottom: 45px
+  margin-top: -3px
+	&-contacts 
+		&_title
+			// margin-left: 59px
+			display: flex
+   justify-content: flex-end
+			font: 
+				size: 14px
+				weight: 300
+		&_phone
+			padding-top: 6px
+			display: flex;
+  	justify-content: flex-end
+			font: 
+				family: Roboto
+				size: 19px
+				weight: 700
+			line-height: 24px
+			a 
+				color: #ffffff
+				cursor: pointer 
+				&:hover 
+					color: #ffbb38
+	&-btn 
+		width: 170px
+		height: 45px
+		font: 
+			family: "Proxima Nova"
+			size: 14px
+			weight: 900
+		line-height: 22.04px
+		border-radius: 26px 
+		border: none 
+		outline: none 
+		color: #202020
+		background-color: #ffdc38
+		&:hover 
+			background-color: #ffbb38
+			cursor: pointer 

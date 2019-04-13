@@ -1,0 +1,435 @@
+.btn 
+	width: 203px
+	height: 44px
+	background: transparent 
+	border: 1.5px solid #000000
+	cursor: pointer 
+	outline: none 
+
+body 
+	padding: 0
+	margin: 0
+	font-family: Montserrat, sans-serif
+
+.container 
+	width: 1075px
+	margin: 0 auto
+
+header
+	width: 100%
+	// height: 900px
+	// position: relative 
+	&::before 
+		content: ''
+		position: absolute
+		display: block
+		background: #000
+		height: 900px
+		width: 460px
+		left: 0
+		top: 0
+		z-index: -1
+.header
+		display: flex
+		justify-content: space-between
+		width: 95%
+		margin: 0 auto
+		&__image 
+			background: url(../img/main-img.jpg)
+		&__left 
+			display: flex
+			justify-content: space-between
+			padding-top: 36px
+			width: 340px
+			height: 30px
+			align-items: center 
+		&__logo
+			position: relative 
+			font-family: Montserrat, sans-serif
+			font-weight: 500
+			line-height: normal
+			font-size: 30px
+			text-align: center
+			letter-spacing: 0.07em
+			color: #fff
+			text-transform: uppercase
+		&__lang 
+			position: relative 
+			font-family: Montserrat, sans-serif
+			font-style: normal
+			font-weight: 500
+			font-size: 20px
+			text-transform: uppercase
+			color: #fff
+			&::after 
+				content: ''
+		  position: absolute
+		  bottom: 7px
+		  left: 40px
+		  width: 10px
+		  height: 10px
+		  border: 1px solid #ffffff
+		  border-top: #000
+		  border-left: #000
+		  -webkit-transform: rotate(45deg)
+		  -ms-transform: rotate(45deg)
+		  transform: rotate(45deg)
+		  cursor: pointer
+		&__menu
+		 position: absolute 
+			height: 92px
+			width: 92px
+			right: 0
+			top: 0
+			background: #f2f2f2
+			cursor: pointer 
+			&::before 
+				content: ''
+				position: absolute
+				width: 35px
+				height: 3.5px	
+				left: 50%
+				top: 39.5px
+				margin-left: -17.5px
+				background: #000
+			&::after
+				content: ''
+				position: absolute
+				width: 35px
+				height: 3.5px	
+				left: 50%
+				bottom: 39px
+				margin-left: -17.5px
+				background: #000 
+
+.collection /*блок main*/
+		&__content 
+			display: flex 
+			align-items: center 
+			justify-content: space-between
+			padding-top: 100px
+			width: 100%
+			margin: 0 auto
+		&__text
+			width: 491px
+			&-title 
+				margin: 0
+				font-family: Montserrat, sans-serif
+				font-style: normal
+				font-weight: bold
+				line-height: 82px
+				font-size: 80px
+				color: #000000
+			&-descr 
+				padding-top: 22px
+				font-family: Montserrat, sans-serif
+				font-style: normal
+				line-height: 21px
+				font-size: 15px
+				color: #000000
+			&-bottom 
+				display: flex 
+				justify-content: space-between
+				align-items: center
+				padding-top: 36px
+				width: 88%
+			&-offer 
+				position: relative
+				font-family: Montserrat, sans-serif
+				font-style: normal
+				font-weight: 500
+				line-height: 0px
+				font-size: 13px
+				color: #000000
+				&::after 
+					position: absolute 
+					content: url('../img/arrow.svg')
+					left: 180px
+					bottom: -4px
+					
+.collection 	/*блок main соц-сети*/	
+		&__social
+			padding-top: 85px 
+			margin-left: 2.5%
+			display: inline-flex
+			justify-content: space-between
+			width: 480px
+			&-links 
+				display: flex
+				width: 135px
+				justify-content: space-between
+				a 
+					display: flex
+					justify-content: center
+					align-items: center
+					width: 41px
+					height: 41px
+					border-radius: 50%
+					background: #fff
+							
+		&__mouse /*блок main мышка*/
+			width: 27px
+		 height: 46px
+		 border: 2px solid black
+		 -webkit-border-radius: 15px
+		 border-radius: 15px
+		 // margin-left: 516px
+		 left: 49%
+		 position: absolute 
+		 transform: translateX(-49%)
+   // bottom: 39px
+   margin-top: 74px
+		 &::before
+		 	display: block
+		  content: ''
+			 position: absolute
+			 width: 2.5px
+			 height: 8px
+			 background: #000
+			 left: 50%
+			 margin-left: -1.25px
+			 top: 10px
+
+.bag 
+	font-family: Montserrat, sans-serif
+	&__wrap
+	 margin-top: 42px
+		background: #fae8e4
+	&__content 
+		display: flex
+		align-items: center
+		justify-content: space-between
+	&__image
+		top: 69px
+  width: 582px
+  height: 524px
+  background: url(../img/bag-image.png) no-repeat;
+  position: relative
+  left: -49px
+  background-size: contain
+	&__description
+		margin-top: 167px
+		position: relative
+		z-index: 3
+		&::after 
+   content: ''
+   position: absolute
+   background: #d1c2bf
+   opacity: .8
+			height: 490px
+   width: 450px
+   top: 72px
+   left: 49px
+   z-index: -1
+   filter: blur(21px)
+	&__card 
+		margin-bottom: 39px
+		// padding: 40px 0 0 55px
+		width: 488px
+		height: 556px
+		background: #fff
+
+.card 
+	font-family: Montserrat, sans-serif
+	font-style: normal
+	&__title 
+		margin: 0
+		padding: 40px 0 0 55px
+		// padding-bottom: 17px
+		line-height: 41px
+		font-family: Montserrat, sans-serif
+		font-size: 40px
+		font-weight: bold
+		color: #000000
+	&__subtitle 
+		padding: 17px 0 0 55px
+		line-height: 16px
+		font-size: 16px
+		font-weight: bold
+		letter-spacing: 0.07em
+		color: #000000
+		opacity: 0.5
+	&__text 
+		padding: 64px 0 0 55px
+		width: 353px
+		font-weight: normal
+		line-height: 21px
+		font-size: 15px
+		color: #000000
+		opacity: 0.5
+	&__colors 
+		display: inline-block
+	 padding: 48px 48px 0 55px
+		vertical-align: middle
+		cursor: pointer 
+	&__price 
+		display: inline-block
+		padding: 48px 0 0 0
+		line-height: 56px
+		font-weight: bold
+		font-size: 40px
+		vertical-align: -webkit-baseline-middle
+		color: #000000
+	&__number 
+		padding: 41px 0 0 55px
+		width: 373px
+		display: flex
+  justify-content: space-between
+	&__counter 
+		display: inline-block
+	 width: 100px
+	 height: 44px
+	 border: 1.5px solid #000000
+		box-sizing: border-box
+	 button 
+	  border: none
+   outline: none 
+   cursor: pointer
+  span 
+  	padding: 0 10px 0 10px
+ &__btn 
+	 width: 253px
+		height: 44px
+		vertical-align: top
+		background: #fff
+		border: 1.5px solid #000000;
+		box-sizing: border-box;
+		outline: none 
+		cursor: pointer
+	&__arrow 
+		padding-bottom: 125px
+		position: relative
+		&::after 
+			content: url('../img/arrow-2.svg')
+			position: absolute
+			height: 2px
+			width: 100px
+			right: 143px
+		&_style
+			font-family: Montserrat, sans-serif
+			font-weight: 500
+			line-height: normal
+			font-size: 13px
+			text-decoration: none 
+			color: #000000
+	
+.space 
+	padding-right: 5px
+	&:last-child
+		padding-right: 0
+.counter_wrap
+	width: 68px
+	padding: 11px 15px
+.btn_text
+	font-family: Montserrat, sans-serif
+	font-style: normal
+	font-weight: 500
+	line-height: 0px
+	font-size: 13px
+	color: #000000
+	text-transform: uppercase
+// .size
+// 	width: 582px
+.shadow
+	background: #e4d4d0
+	box-shadow: 0.4em 0.4em 10px rgba(0,0,0,0.5)
+.bag_btn
+	background: #fff
+
+.look 
+	background: #ebe3d8
+	background-image: linear-gradient(to left,rgb(235, 227, 216) 66.1%,rgb(22, 22, 22) 66.1%,rgb(22, 22, 22) 72.4%,rgb(235, 227, 216) 71.6%)
+	&__wrap 
+		display: flex
+		margin: 0 auto
+		// width: 1250px
+	&__description
+	 position: relative
+  top: 250px
+  left: -133px
+  height: 100%
+	&__image
+		padding: 136px 0 140px 0
+		position: relative
+  left: -56px
+		max-width: 100%
+	&__card 
+		background: #fae8e4
+		width: 475px
+		height: 351px
+.card
+	&__title
+		font-family: Montserrat, sans-serif
+		font-style: normal
+		font-weight: bold
+		line-height: 41px
+		font-size: 40px
+		color: #000000
+	&__text 
+		max-width: 368px
+		font-family: Montserrat, sans-serif
+		font-style: normal
+		font-weight: normal
+		line-height: 21px
+		font-size: 15px
+		color: #000000
+		opacity: 0.5
+.look_arrow
+ padding: 37px 0 0 124px
+	&::after 
+		content: url('../img/arrow-3.svg')
+		right: 13px
+		bottom: 4px
+		top: 32px
+
+.look_subtitle
+	padding: 17px 0 0 47px
+.look_btn
+	background: #fae8e4
+.look_card-number
+	padding: 60px 0 0 47px
+.btn_style
+	background: #fae8e4
+.look_card-title
+	padding: 34px 0 0 47px
+.look_card-text
+	padding: 35px 0 0 47px
+.arrow 
+	font-family: Montserrat, sans-serif
+	font-style: normal
+	font-weight: 500
+	line-height: normal
+	font-size: 13px
+	text-decoration: none 
+	color: #000000
+
+.footer 
+	background: #ebe3d8
+	background-image: linear-gradient(to left,rgb(235, 227, 216) 66.1%,rgb(22, 22, 22) 66.1%,rgb(22, 22, 22) 72.4%,rgb(235, 227, 216) 72.4%)
+	&__copyrights
+		font-family: Montserrat, sans-serif
+		font-style: normal
+		font-weight: bold
+		line-height: normal
+		font-size: 12px
+		color: #000000
+		text-align: end
+		position: relative
+		height: 33px
+		bottom: 4px
+		right: 100px
+		vertical-align: -webkit-baseline-middle
+		text-transform: uppercase
+		&::after 
+			content: url('../img/logo.png')
+			width: 30px
+			height: 30px
+			right: -21px
+			position: absolute 
+			bottom: 10px
+			vertical-align: -webkit-baseline-middle
+
+	// filter: blur(100px);
+// @import '_media.sass';
+
+

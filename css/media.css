@@ -1,0 +1,502 @@
+@media screen and (max-width: 1199px) {
+  header {
+    max-width: 100%;
+    max-height: 700px; }
+    header::before {
+      width: 31%;
+      height: 835px; }
+  .container {
+    width: 99%; }
+  .header__left {
+    width: 26%; }
+  .collection__social {
+    margin-left: 2.5%; }
+  .collection__content {
+    justify-content: left;
+    width: 90%; }
+  .collection__image {
+    margin-right: 20px; }
+  .collection__left {
+    width: 25%; }
+  .collection__mouse {
+    left: 46%;
+    transform: translateX(-46%); }
+  .collection__text-title {
+    line-height: 62px;
+    font-size: 62px; }
+  .collection__text-descr {
+    font-size: 14px; }
+  .collection__text-bottom {
+    width: 90%; }
+  .hidden {
+    max-width: 90%; }
+  .bag__wrap {
+    margin-top: 32px; }
+  .bag__description::after {
+    height: 418px;
+    width: 352px; }
+  .bag__content {
+    justify-content: space-around; }
+  .bag__image {
+    top: 89px;
+    left: 21px;
+    width: 400px; }
+  .bag__card {
+    margin-bottom: 39px;
+    padding: 0;
+    width: 389px;
+    height: 471px; }
+  .card__title {
+    margin: 0;
+    font-size: 36px; }
+  .card__text {
+    padding: 34px 0 0 55px;
+    width: 296px; }
+  .card__colors {
+    padding: 12px 41px 0 52px; }
+  .card__price {
+    padding: 0;
+    font-size: 35px; }
+  .card__number {
+    width: 258px;
+    padding: 28px 0 0 10px;
+    margin: 0 auto; }
+  .card__counter {
+    display: none; }
+  .card__arrow::after {
+    display: none; }
+  .look__image {
+    left: 20px;
+    left: 4%; }
+  .look__description {
+    top: 203px;
+    left: -6%; }
+  .look_arrow {
+    display: block; }
+  .image_size {
+    width: 100%; } }
+
+@media screen and (max-width: 991px) {
+  header::before {
+    display: none; }
+  .container {
+    max-width: 100%;
+    overflow: hidden; }
+  .header__logo, .header__lang {
+    color: #000; }
+  .header__lang::after {
+    border: 1px solid #000;
+    border-top: #fff;
+    border-left: #fff; }
+  .header__left {
+    max-width: 30%; }
+  .collection__content {
+    flex-direction: column; }
+  .collection__left {
+    width: 24%; }
+  .collection__mouse {
+    margin-top: 74px;
+    width: 24px;
+    height: 37px; }
+  .collection__text-title {
+    padding-top: 35px;
+    font-size: 50px; }
+  .collection__text-descr {
+    text-align-last: center;
+    text-align: justify; }
+  .bag__content {
+    flex-direction: column; }
+  .bag__image {
+    top: 90px;
+    left: 5px;
+    height: 400px; }
+  .bag__description {
+    margin-top: 100px; }
+    .bag__description::after {
+      height: 400px;
+      width: 371px; }
+  .bag__card {
+    height: 448px; }
+  .card__title {
+    padding: 16px 0 2px 31px; }
+  .card__subtitle {
+    padding: 10px 0 0 31px; }
+  .card__text {
+    max-width: 351px;
+    padding: 23px 0 0 31px; }
+  .card__colors {
+    padding: 13px 47px 0 31px; }
+  .card__price {
+    padding: 21px 0 0 0; }
+  .card__number {
+    padding: 29px 0 0 0; }
+  .card__arrow {
+    padding-bottom: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%); }
+    .card__arrow_style {
+      font-size: 12px; }
+  .look__wrap {
+    flex-direction: column; }
+  .look__description {
+    top: -73px;
+    left: 133px; }
+  .look__card {
+    height: 317px;
+    width: 428px; }
+  .look_card-text {
+    width: 306px; }
+  .look_card-number {
+    padding: 45px 0 0 0; }
+  .look_arrow {
+    margin-left: 40%;
+    transform: translateX(-50%); }
+  .look__image {
+    padding: 66px 0 140px 0; }
+  .image_size {
+    width: 600px;
+    margin: 0 auto;
+    display: block; } }
+
+@media screen and (max-width: 768px) {
+  header {
+    background: url(../img/main-mob.jpg) no-repeat center top;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    margin-top: 69px;
+    position: relative; }
+    header::before {
+      display: none; }
+  .container {
+    max-width: 90%;
+    overflow: hidden; }
+  .header__menu {
+    width: 70px;
+    height: 69px;
+    top: -69px; }
+    .header__menu::after, .header__menu::before {
+      width: 26.4px;
+      height: 2px;
+      margin-left: -13.5px; }
+  .header__logo {
+    color: #000;
+    position: absolute;
+    top: -50px;
+    left: 10%;
+    transform: translateX(-10%); }
+  .header__lang {
+    display: none; }
+  .collection__mouse {
+    display: none; }
+  .collection__social {
+    display: none; }
+  .collection__content {
+    padding-top: 26px;
+    margin-top: -26px;
+    align-items: flex-start;
+    flex-direction: column; }
+  .collection__text {
+    width: 320px; }
+    .collection__text-title {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      line-height: 51px;
+      font-size: 50px;
+      transform: translateX(-50%); }
+    .collection__text-descr, .collection__text-bottom {
+      display: none; }
+  .hidden {
+    display: none; }
+  .mobile__arrow::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 3px solid #020202;
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top: #fff;
+    border-left: #fff;
+    bottom: -36px;
+    left: 50%;
+    cursor: pointer; }
+  .bag__wrap {
+    margin-top: 0; }
+  .bag__content {
+    flex-direction: column; }
+  .bag__image {
+    position: relative;
+    height: 274px;
+    width: 303px;
+    top: 45px;
+    left: 13px;
+    transform: translateX(-10px);
+    background: url(../img/bag-mob.png) center no-repeat;
+    background-size: contain; }
+  .bag__description {
+    margin-top: 70px; }
+  .bag__card {
+    padding: 0;
+    width: 320px;
+    height: 281px; }
+  .bag__description::after {
+    display: none; }
+  .card__title {
+    padding: 16px 0 2px 31px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: left; }
+  .card__subtitle {
+    padding: 2px 0 0 31px;
+    line-height: 10px;
+    font-size: 10px;
+    letter-spacing: 0.07em;
+    text-align: left; }
+  .card__text {
+    padding: 16px 0 0 31px;
+    width: 237px;
+    line-height: 13px;
+    font-size: 9px;
+    text-align: left;
+    margin: 0; }
+  .card__price {
+    padding: 12px 0 0 0;
+    line-height: 28px;
+    font-size: 20px;
+    vertical-align: top; }
+  .card__colors {
+    padding: 13px 60px 0 31px; }
+  .card__counter {
+    display: none; }
+  .card__btn {
+    height: 37px;
+    margin-left: -37px; }
+  .card__arrow {
+    display: none; }
+  .card__number {
+    padding: 34px 0 0 70px; }
+  .size {
+    height: 24px;
+    width: 22px; }
+    .size_mob {
+      height: 29px;
+      width: 27px; }
+  .space {
+    padding-right: 2px; }
+  .btn_text {
+    line-height: 0px;
+    font-size: 13px; }
+  .look__wrap {
+    flex-direction: column; }
+  .look__image {
+    padding: 34px 0 0 0;
+    max-width: 320px;
+    left: auto; }
+  .look__card {
+    width: 250px;
+    height: 195px; }
+  .look__description {
+    left: 25px;
+    top: -24px; }
+  .image_size {
+    max-width: 320px; }
+  .look_card-number {
+    padding: 33px 0 0 56px; }
+  .look_btn {
+    width: 212px; }
+  .look_arrow {
+    display: block;
+    margin-top: 35px;
+    padding: 0;
+    margin-left: 56%;
+    transform: translateX(-56%); }
+    .look_arrow::after {
+      display: block;
+      right: 31px; }
+  .arrow {
+    font-size: 15px; }
+  .look__card {
+    width: 290px; }
+  .card__title {
+    font-size: 25px; }
+  .card__subtitle {
+    padding: 5px 0 0 31px;
+    font-size: 12px; }
+  .card__text {
+    font-size: 11px;
+    width: 264px; }
+  .image_size {
+    max-width: 450px; }
+  .look_btn {
+    margin-left: -7px; }
+  .look_card-number {
+    padding: 33px 0 0 0px;
+    width: 218px; }
+  .look_arrow {
+    margin-top: 19px; }
+    .look_arrow::after {
+      display: none; } }
+
+.footer {
+  display: none; }
+
+@media only screen and (max-width: 320px) {
+  header {
+    position: relative; }
+    header::before {
+      display: none; }
+  main {
+    background: url(../img/main-mob.jpg) no-repeat center top;
+    max-width: 100%; }
+  .container {
+    max-width: 90%;
+    overflow: hidden; }
+  .header__menu {
+    width: 70px;
+    height: 69px; }
+    .header__menu::after, .header__menu::before {
+      width: 26.4px;
+      height: 2px;
+      margin-left: -13.5px; }
+  .header__logo {
+    color: #000;
+    position: absolute;
+    left: 10%;
+    transform: translateX(-10%); }
+  .header__lang {
+    display: none; }
+  .collection__mouse {
+    display: none; }
+  .collection__social {
+    display: none; }
+  .collection__content {
+    padding-top: 26px;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: -26px; }
+  .collection__text {
+    width: 320px; }
+    .collection__text-title {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      line-height: 51px;
+      font-size: 50px;
+      transform: translateX(-50%); }
+    .collection__text-descr, .collection__text-bottom, .collection__text-btn {
+      display: none; }
+  .hidden {
+    display: none; }
+  .mobile__arrow::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 3px solid #020202;
+    width: 14px;
+    height: 14px;
+    transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-top: #fff;
+    border-left: #fff;
+    bottom: -36px;
+    left: 50%;
+    cursor: pointer; }
+  .bag__wrap {
+    margin-top: 0; }
+  .bag__content {
+    flex-direction: column; }
+  .bag__image {
+    position: relative;
+    height: 200px;
+    top: 53px;
+    left: 1px;
+    transform: translateX(1px);
+    background: url(../img/bag-mob.png) center no-repeat; }
+  .bag__description {
+    margin-top: 70px; }
+  .bag__card {
+    width: 320px;
+    height: 281px; }
+  .bag__description::after {
+    display: none; }
+  .card__title {
+    padding: 16px 0 2px 31px;
+    line-height: 20px;
+    font-size: 20px;
+    text-align: left; }
+  .card__subtitle {
+    padding: 2px 0 0 31px;
+    line-height: 10px;
+    font-size: 10px;
+    letter-spacing: 0.07em;
+    text-align: left; }
+  .card__text {
+    padding: 16px 0 0 31px;
+    width: 237px;
+    line-height: 13px;
+    font-size: 9px;
+    text-align: left;
+    margin: 0; }
+  .card__price {
+    padding: 12px 0 0 0;
+    line-height: 28px;
+    font-size: 20px;
+    vertical-align: top; }
+  .card__colors {
+    padding: 13px 60px 0 31px; }
+  .card__counter {
+    display: none; }
+  .card__btn {
+    height: 37px;
+    margin-left: -37px; }
+  .card__arrow {
+    display: none; }
+  .card__number {
+    padding: 34px 0 0 70px; }
+  .size {
+    height: 24px;
+    width: 22px; }
+    .size_mob {
+      height: 29px;
+      width: 27px; }
+  .space {
+    padding-right: 2px; }
+  .btn_text {
+    line-height: 0px; }
+  .look__wrap {
+    flex-direction: column; }
+  .look__image {
+    padding: 34px 0 0 0;
+    max-width: 320px;
+    left: auto; }
+  .look__card {
+    width: 250px;
+    height: 195px; }
+  .look__description {
+    left: 25px;
+    top: -24px; }
+  .image_size {
+    max-width: 320px; }
+  .look_card-number {
+    padding: 33px 0 0 56px; }
+  .look_btn {
+    width: 212px; }
+  .look_arrow {
+    display: block;
+    margin-top: 35px;
+    padding: 0;
+    margin-left: 56%;
+    transform: translateX(-56%); }
+    .look_arrow::after {
+      display: block;
+      right: 31px; }
+  .arrow {
+    font-size: 15px; } }
+
+.footer {
+  display: none; }

@@ -1,0 +1,76 @@
+.contacts 
+	padding-top: 51px
+	padding-bottom: 80px
+	font-family: "Proxima Nova"
+	background: #ffffff
+	color: #202020
+	&-title 
+		font-size: 26px
+		font-weight: 600
+		line-height: 24px
+		text-transform: uppercase
+		text-align: center
+		&::after 
+			margin-top: 23px
+			content: '';
+   display: block;
+   height: 6px;
+			background: url(../img/about/line.jpg) center no-repeat
+	&-map
+		padding-top: 12px
+		width: 728px
+  height: 406px
+		// iframe 
+  //  border: none
+
+	&-block 
+		margin-left: 21px
+		&_address 
+			padding-top: 76px
+			&__title 
+				font-size: 18px
+				font-weight: 600
+				line-height: 22px
+			&__subtitle 
+				display: flex
+				align-items: center
+				padding-top: 10px
+		&_phone
+			&__title 
+				padding-top: 24px
+				font-size: 18px
+				font-weight: 600
+				line-height: 22px
+			&__subtitle 
+				display: flex
+				align-items: center
+				padding-top: 10px
+				a
+					color: #202020
+					&:hover 
+						color: #ffbb38
+		&_btn 
+			&__title 
+				padding-top: 34px
+				font-size: 18px
+				font-weight: 600
+				line-height: 22px
+	&-btn 
+		margin-top: 8px
+		width: 170px
+
+.address, .tel
+	margin-left: 12px
+	font-size: 16px
+	font-weight: 400
+	line-height: 22px
+
+.tel 
+	cursor: pointer 
+	a 
+	&:hover 
+		color: #ffdc38
+
+.map 
+	width: 728px
+ height: 406px
